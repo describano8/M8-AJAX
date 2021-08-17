@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ejercicio M8.AJAX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <div class="container bg-warning w-75 h-50 mt-5 mb-5 d-50-flex">
+        <div class="row">
+            <div class="caixaTitol col-log-12 col-md-12 col-s-auto text-white">
+                <h1 class="display-5">Los chistes de Chuck Norris</h1>
+            </div>
+        </div>
+        <!--Inicio del formulario-->
+        <form action="">
+            <div class="row">
+                <div class="col-lg-3 col-md-8 col-s-auto w-25"></div>
+                <div class="caixaBotoClick shadow-lg m-3 p-4 rounded" id="idBtnJoke">
+                    <button type="button" class="btn btn-md btn-danger" id="idBtnClick" data-toggle="popover" data-trigger="hover" data-placement="top"  title="Los chistes de Chuck" data-content="¡Quiero otro!">
+                        ¡Haz clic para leer un chiste!
+                        <span class="spinner-grow spinner-border-sm text-warning"></span>
+                    </button>
+                </div>
+                <div class="caixaImage col-lg-8 col-md-8 col-s-auto sticky-top" id="idImage">
+                    <img class="w-75" src="imágenes/5179.png" alt="Chuck Norris" >
+               </div> 
+            </div>  
+        </form>
+    </div>
     
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <script src="comandoo.js"></script>
 </body>
 </html>
