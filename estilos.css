@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    /*display: flex;
+    flex-direction: column;*/
+    background-color: #d1eaaa;
+    background-image: url("/imágenes/fondo\ fuego.jpg");
+  
+}
+.caixaBotoClick{
+    z-index: 1;
+    position: fixed;
+    width: 20em;
+    text-align: center;
+ }
+@media screen and (max-width:1100px){
+  .caixaBotoClick{
+    position:relative;
+    width: 15em;
+  } 
+  #idBtnClick{
+      padding: 5%;
+    }
+  #idHistory{
+    width: 80%;
+    margin-left: 2em;
+  }
+}
+@media screen and (max-width:750px){
+    .caixaBotoClick{
+        position:relative;
+        
+    }
+    
+}
